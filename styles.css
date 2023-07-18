@@ -1,5 +1,5 @@
 body {
-  background: #d39ab1;
+  background: lightblue;
   font-family: "Roboto", sans-serif;
 }
 
@@ -51,7 +51,7 @@ ul {
 }
 
 .accordion-button:hover {
-  background: #826993;
+  background: black;
   color: white;
 }
 
@@ -72,14 +72,14 @@ ul {
 
 .btn-learn {
   color: white;
-  background: #7b6194;
+  background: black;
   font-size: 20px;
 }
 
 .btn-learn:hover {
-  color: #7b6194;
+  color: black;
   background: white;
-  border: 1px solid #7b6194;
+  border: 1px solid black;
   transition: all 100ms ease-in-out;
 }
 
@@ -105,7 +105,7 @@ ul {
 }
 
 .in-touch-link:hover {
-  color: #826993;
+  color: black;
 }
 
 .contact-headings,
