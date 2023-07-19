@@ -39,6 +39,12 @@ ul {
   font-size: 22px;
 }
 
+.shein-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
 .footer {
   font-family: monospace;
   font-size: 15px;
