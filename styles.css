@@ -65,7 +65,7 @@ ul {
 }
 
 .btn-primary:hover {
-  color: #085ed7;
+  color: lightblue;
   background-color: white;
   transition: all 100ms ease-in-out;
 }
