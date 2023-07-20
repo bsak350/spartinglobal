@@ -110,97 +110,59 @@
     </div>
 
     <!-- FormBold website to manage email submissions - free subscription -->
-    <form action="https://formbold.com/s/3Vg7a" method="POST">
-      <!-- Wrapper container -->
-      <div class="container py-4">
-        <!-- Bootstrap 5 starter form -->
-        <form id="contactForm">
-          <!-- Name input -->
-          <div class="mb-3">
-            <label class="form-label" for="name">Name</label>
-            <input
-              class="form-control"
-              id="name"
-              type="text"
-              placeholder="Name"
-              data-sb-validations="required"
-            />
-            <div class="invalid-feedback" data-sb-feedback="name:required">
-              Name is required.
+    <div class="formbold-main-wrapper text-center">
+      <div class="formbold-form-wrapper">
+        <form action="https://formbold.com/s/3Vg7a" method="POST">
+          <div class="formbold-input-flex">
+            <div>
+              <input
+                type="text"
+                name="Name"
+                id="name"
+                placeholder="Name"
+                class="formbold-form-input"
+              />
             </div>
           </div>
 
-          <!-- Company input -->
-          <div class="mb-3">
-            <label class="form-label" for="company">Company</label>
-            <input
-              class="form-control"
-              id="company"
-              type="text"
-              placeholder="Company"
-              data-sb-validations="required"
-            />
-            <div class="invalid-feedback" data-sb-feedback="company:required">
-              Company is required.
+          <div class="formbold-input-flex">
+            <div>
+              <input
+                type="text"
+                name="Company"
+                id="Company"
+                placeholder="Company"
+                class="formbold-form-input"
+              />
             </div>
           </div>
 
-          <!-- Email address input -->
-          <div class="mb-3">
-            <label class="form-label" for="emailAddress">Email Address</label>
-            <input
-              class="form-control"
-              id="emailAddress"
-              type="email"
-              placeholder="Email Address"
-              data-sb-validations="required, email"
-            />
-            <div
-              class="invalid-feedback"
-              data-sb-feedback="emailAddress:required"
-            >
-              Email Address is required.
-            </div>
-            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">
-              Email Address Email is not valid.
+          <div class="formbold-input-flex">
+            <div>
+              <input
+                type="Email"
+                name="Email"
+                id="Email"
+                placeholder="Email"
+                class="formbold-form-input"
+              />
             </div>
           </div>
 
-          <!-- Message input -->
-          <div class="mb-3">
-            <label class="form-label" for="message">Message</label>
+          <div class="formbold-textarea">
             <textarea
-              class="form-control"
-              id="message"
-              type="text"
-              placeholder="Message"
-              style="height: 10rem"
-              data-sb-validations="required"
+              rows="6"
+              name="Message"
+              id="Message"
+              placeholder="Write your message..."
+              class="formbold-form-input"
             ></textarea>
-            <div class="invalid-feedback" data-sb-feedback="message:required">
-              Message is required.
-            </div>
           </div>
 
-          <!-- Form submissions success message -->
-          <div class="d-none" id="submitSuccessMessage">
-            <div class="text-center mb-3">Form submission successful!</div>
-          </div>
-
-          <!-- Form submissions error message -->
-          <div class="d-none" id="submitErrorMessage">
-            <div class="text-center text-danger mb-3">
-              Error sending message!
-            </div>
-          </div>
-
-          <!-- Form submit button -->
-          <div class="d-grid">
-            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
-          </div>
+          <button class="formbold-btn">Send Message</button>
         </form>
       </div>
-    </form>
+    </div>
 
     <footer>
       <p class="text-center p-3 mt-5 footer">
