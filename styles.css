@@ -1,5 +1,5 @@
 body {
-  background: lightblue;
+  background: #389973;
   font-family: "Roboto", sans-serif;
 }
 
@@ -14,6 +14,10 @@ h1 {
   font-size: 28px;
   margin-top: 5px;
   margin-left: 30px;
+}
+
+.container-fluid {
+  background-color: #f4fafb;
 }
 
 h3 {
@@ -169,7 +173,7 @@ h1.card-title {
   margin: 0 auto;
   max-width: 550px;
   width: 100%;
-  background: lightblue;
+  background: #389973;
 }
 
 .formbold-input-flex {
