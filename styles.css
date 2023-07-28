@@ -1,16 +1,18 @@
 body {
-  background: #389973;
-  font-family: "Roboto", sans-serif;
+  background: #347fb9;
+  font-family: "Mulish", sans-serif;
+
+  color: black;
 }
 
 h1 {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 50px;
   font-size: 50px;
 }
 
 .navbar-brand {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Poppins", sans-serif;
   font-size: 28px;
   margin-top: 5px;
   margin-left: 30px;
@@ -22,6 +24,11 @@ h1 {
 
 h3 {
   margin: 20px;
+}
+
+.brand-slogan {
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 img {
@@ -173,7 +180,7 @@ h1.card-title {
   margin: 0 auto;
   max-width: 550px;
   width: 100%;
-  background: #389973;
+  background: #347fb9;
 }
 
 .formbold-input-flex {
