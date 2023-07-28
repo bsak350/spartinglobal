@@ -18,8 +18,13 @@ h1 {
   margin-left: 30px;
 }
 
+.nav-item {
+  font-size: 16px;
+  color: #347fb9;
+}
+
 .container-fluid {
-  background-color: #f4fafb;
+  background-color: #ffffff;
 }
 
 h3 {
