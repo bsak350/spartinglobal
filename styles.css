@@ -152,7 +152,7 @@ ul {
   border: 2px solid blue;
 }
 
-.seo-picture {
+.shein-logo {
   display: block;
   margin: 0 auto;
 }
@@ -269,12 +269,12 @@ h1.card-title {
     margin-left: 0;
   }
 
-  .col-md-4 {
-    margin-top: 10px;
+  .shein-logo {
+    max-width: 250px;
   }
 
-  .seo-picture {
-    padding: 15px;
+  .col-md-4 {
+    margin-top: 10px;
   }
 
   .contact-container {
