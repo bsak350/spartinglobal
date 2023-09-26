@@ -139,7 +139,7 @@ ul {
 }
 
 .service-list {
-  margin-left: 50px;
+  text-align: left;
 }
 
 .service-info img {
@@ -261,10 +261,6 @@ h1.card-title {
   .service-heading {
     margin: 0;
     margin-top: 30px;
-  }
-
-  .service-list {
-    margin-left: 0;
   }
 
   .col-md-4 {
