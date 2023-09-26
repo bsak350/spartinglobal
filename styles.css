@@ -225,7 +225,7 @@ h1.card-title {
 
 .hello-email {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 560px) {
