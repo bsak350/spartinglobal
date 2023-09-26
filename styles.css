@@ -293,4 +293,8 @@ h1.card-title {
     margin: 0;
     padding: 0;
   }
+
+  .welcome-pic {
+    max-width: 350px;
+  }
 }
