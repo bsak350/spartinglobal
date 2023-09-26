@@ -16,7 +16,7 @@ h1 {
 }
 
 .nav-item {
-  font-size: 16px;
+  font-size: 20px;
   color: #347fb9;
 }
 
@@ -50,12 +50,6 @@ p {
 ul {
   font-family: "Roboto", sans-serif;
   font-size: 22px;
-}
-
-.shein-link {
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
 }
 
 .footer {
@@ -152,9 +146,10 @@ ul {
   border: 2px solid blue;
 }
 
-.shein-logo {
+.welcome-pic {
   display: block;
   margin: 0 auto;
+  max-width: 650px;
 }
 
 #contact-card {
@@ -230,6 +225,11 @@ h1.card-title {
   color: black;
 }
 
+.hello-email {
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width: 560px) {
   h2,
   h3,
@@ -267,10 +267,6 @@ h1.card-title {
 
   .service-list {
     margin-left: 0;
-  }
-
-  .shein-logo {
-    max-width: 250px;
   }
 
   .col-md-4 {
