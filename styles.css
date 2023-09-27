@@ -228,6 +228,12 @@ h1.card-title {
   color: white;
 }
 
+#brand-photo {
+  width: 250px;
+  height: 230px;
+  margin: 2px;
+}
+
 @media (max-width: 560px) {
   h2,
   h3,
